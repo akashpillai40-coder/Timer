@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Timers App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Multiple Timers App</h1>
+
+    <section class="timer-input">
+      <p>Set Time</p>
+
+      <input id="hours" type="number" placeholder="00" min="0">
+      <span>:</span>
+
+      <input id="minutes" type="number" placeholder="00" min="0">
+      <span>:</span>
+
+      <input id="seconds" type="number" placeholder="00" min="0">
+
+      <button id="start-btn">Start New Timer</button>
+    </section>
+
+    <section id="active-timers">
+      <h2>Active Timers</h2>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
